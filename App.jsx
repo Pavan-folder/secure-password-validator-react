@@ -45,10 +45,7 @@ const App = () => {
       }}
     >
       <h2>Password Strength Checker</h2>
-<<<<<<< HEAD
-      
-=======
->>>>>>> 5744a68 (Update Vite config and project files)
+
       <label
         htmlFor="password"
         style={{ marginBottom: "8px", fontWeight: "bold" }}
@@ -111,4 +108,5 @@ const App = () => {
 };
 
 export default App;
+
 
