@@ -45,6 +45,7 @@ const App = () => {
       }}
     >
       <h2>Password Strength Checker</h2>
+      
       <label
         htmlFor="password"
         style={{ marginBottom: "8px", fontWeight: "bold" }}
@@ -107,3 +108,4 @@ const App = () => {
 };
 
 export default App;
+
