@@ -45,7 +45,14 @@ const App = () => {
       }}
     >
       <h2>Password Strength Checker</h2>
+      <label
+        htmlFor="password"
+        style={{ marginBottom: "8px", fontWeight: "bold" }}
+      >
+        Enter Password:
+      </label>
       <input
+        id="password"
         type="password"
         value={password}
         onChange={handleChange}
