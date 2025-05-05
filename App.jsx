@@ -47,13 +47,13 @@ const App = () => {
       <h2>Password Strength Checker</h2>
 
       <label
-        htmlFor="password"
+        htmlFor="password"  // The 'for' attribute should match the 'id' of the input field
         style={{ marginBottom: "8px", fontWeight: "bold" }}
       >
         Enter Password:
       </label>
       <input
-        id="password"
+        id="password"  // Ensure the 'id' here matches the 'htmlFor' of the label
         type="password"
         value={password}
         onChange={handleChange}
